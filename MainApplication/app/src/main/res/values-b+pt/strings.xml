@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CasarderApp</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="title_activity_login">Entrar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Palavra-Passe (opcional)</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Este email é inválido</string>
+    <string name="error_invalid_password">Esta palavra-passe é demasiado pequena</string>
+    <string name="error_incorrect_password">Esta palavra-passe está incorreta</string>
+    <string name="error_field_required">Este campo é necessario</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="supplemental_equipments">"Equipamentos Suplementares"</string>
+    <string name="continue_text">"Continuar"</string>
+    <string name="categories">"Categorias"</string>
+    <string name="sports">"Modalidades"</string>
+    <string name="equipments">"Equipamentos"</string>
+    <string name="book_now">"Reserve Já"</string>
+    <string name="rating">"Avaliação"</string>
+    <string name="begin_hour">"Hora de Inicio"</string>
+    <string name="end_hour">"Hora de Fim"</string>
+    <string name="invites">"Convites"</string>
+    <string name="book">"Reservar"</string>
+    <string name="invite_your_friends">"Convide Os Seus Amigos"</string>
+    <string name="login">"Entrar"</string>
+    <string name="logout">"Sair"</string>
+    <string name="facility_name">"Nome do Recinto"</string>
+    <string name="locality">"Localidade"</string>
+    <string name="search">"Pesquisar"</string>
+    <string name="popular_facilities">"Recintos Populares"</string>
+    <string name="recently_seen">"Vistos Recentemente"</string>
+    <string name="nearby_facilities">"Recintos Próximos"</string>
+    <string name="order_by">"Ordenar"</string>
+    <string name="filter">"Filtrar"</string>
+    <string name="select_day">"Selecione um Dia:"</string>
+    <string name="distance">"Distancia"</string>
+    <string name="price_rating">"Avaliação do Preço"</string>
+    <string name="price">"Preço"</string>
+    <string name="premises">"Instalações"</string>
+    <string name="access">"Acessos"</string>
+    <string name="aphabetical_order">"ordem Alfabética"</string>
+    <string name="price_ascending">"Preço: Mais Alto Primeiro"</string>
+    <string name="price_descending">"Preço: Mais Baixo Primeiro"</string>
+    <string name="title_home">"Início"</string>
+    <string name="title_history">"Histórico"</string>
+    <string name="title_next_bookings">"Próximas Reservas"</string>
+    <string name="cancel">"Cancelar" </string>
+    <string name="header_message">"Encontre o local ideal para o seu jogo"</string>
+    <string name="name">"Nome"</string>
+    <string name="participants">"Participantes"</string>
+    <string name="until"> até</string>
+    <string name="author">autor</string>
+    <string name="participant">participante</string>
+    <string name="no_bookings">Sem Reservas Para Já</string>
+    <string name="no_time_slots">Sem Faixas Horárias Disponiveis</string>
+    <string name="no_ratings">Não Existem Avaliações</string>
+    <string name="no_results">Sem Resultados</string>
+    <string name="please_sign">Por favor, registe-se ou entre com a sua conta</string>
+    <string name="rate">Confirmar Avaliação</string>
+    <string name="relevance">Relevância</string>
+    <string name="locations">Localizações</string>
+    <string name="facilities">Recintos</string>
+    <string name="choose_sports">Escolha os Desportos:</string>
+    <string name="choose_categories">Escolha as Categorias:</string>
+    <string name="overall_rating"></string>
+    <string name="average">Avaliação Global</string>
+
+
+</resources>

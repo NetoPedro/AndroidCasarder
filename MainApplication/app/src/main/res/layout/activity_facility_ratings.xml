@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mainapplication.activity.FacilityRatingsActivity"
+    android:background="@color/colorBackground">
+
+
+    <RelativeLayout
+        android:id="@+id/rating_bar_layout"
+        android:transitionName="rating_layout"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app2:layout_constraintTop_toTopOf="parent"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintWidth_min="360dp"
+        app2:layout_constraintWidth_max="500dp"
+        android:elevation="4dp"
+        android:background="@drawable/white_rectangle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|left|center"
+            android:layout_toStartOf="@+id/rating"
+            android:transitionName="rating_label"
+            android:text="@string/rating" />
+
+        <RatingBar
+            android:id="@+id/rating"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:transitionName="rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="@color/colorAccent"
+            android:stepSize="0.1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/rating_value"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/white_rectangle"
+            android:gravity="center_vertical"
+            android:padding="20dp"
+            android:text="4.0"
+            android:textStyle="bold"
+            android:textColor="@color/dark_grey_accent"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/expanded_rating_bar_layout"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        app2:layout_constraintTop_toBottomOf="@+id/rating_bar_layout"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintWidth_min="360dp"
+        app2:layout_constraintWidth_max="500dp"
+        android:elevation="2dp"
+        android:background="@drawable/white_rectangle">
+        <TextView
+            android:id="@+id/access_rating_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical|left|center"
+            android:text="@string/price"
+            android:layout_alignBottom="@+id/access_rating"
+            android:layout_toStartOf="@+id/access_rating" />
+
+        <RatingBar
+            android:id="@+id/access_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="@color/colorAccent"
+            android:stepSize="0.1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/price_rating_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_rectangle"
+            android:gravity="center_vertical"
+            android:text="4.0"
+            android:textColor="@color/dark_grey_accent"
+            android:textSize="16sp"
+            android:layout_toEndOf="@+id/access_rating"
+            android:layout_alignBaseline="@+id/access_rating"/>
+
+        <TextView
+            android:id="@+id/premises_rating_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical|left|center"
+            android:text="@string/premises"
+            android:layout_alignTop="@+id/premises_rating"
+            android:layout_toStartOf="@+id/premises_rating" />
+
+        <RatingBar
+            android:id="@+id/premises_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="@color/colorAccent"
+            android:stepSize="0.1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/access_rating"/>
+
+        <TextView
+            android:id="@+id/premises_rating_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_rectangle"
+            android:gravity="center_vertical"
+            android:text="4.0"
+            android:textColor="@color/dark_grey_accent"
+            android:textSize="16sp"
+            android:layout_toEndOf="@+id/access_rating"
+            android:layout_below="@+id/price_rating_value"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/price_rating_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical|left|center"
+            android:text="@string/access"
+            android:layout_alignTop="@+id/price_rating"
+            android:layout_toStartOf="@+id/price_rating" />
+
+        <RatingBar
+            android:id="@+id/price_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="@color/colorAccent"
+            android:stepSize="0.1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/premises_rating"/>
+
+        <TextView
+            android:id="@+id/access_rating_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_rectangle"
+            android:gravity="center_vertical"
+            android:text="4.0"
+            android:textColor="@color/dark_grey_accent"
+            android:textSize="16sp"
+            android:layout_toEndOf="@+id/access_rating"
+            android:layout_below="@+id/premises_rating_value"
+            android:layout_marginTop="4dp" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ratings_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app2:layout_constraintTop_toBottomOf="@+id/expanded_rating_bar_layout"
+        android:padding="8dp"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintWidth_min="360dp"
+        app2:layout_constraintWidth_max="506dp">
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/no_results_label"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app2:layout_constraintTop_toBottomOf="@+id/expanded_rating_bar_layout"
+        android:padding="8dp"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintWidth_min="360dp"
+        app2:layout_constraintWidth_max="506dp"
+        android:text="@string/no_bookings"
+        android:gravity="center"
+        android:visibility="gone" />
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app2:layout_constraintTop_toBottomOf="@+id/expanded_rating_bar_layout"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintWidth_min="360dp"
+        app2:layout_constraintWidth_max="506dp"
+        android:padding="160dp"
+        android:visibility="gone"/>
+</android.support.constraint.ConstraintLayout>

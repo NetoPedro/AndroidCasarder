@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mainapplication.activity.FilterResultsPopupActivity"
+    android:gravity="center">
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/white_card"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/search"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/colorAccent"
+            android:elevation="2dp"
+            android:layout_margin="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/filter_layout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/search_button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_max="500dp"
+            app:layout_constraintWidth_min="360dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:gravity="center"
+                android:text="@string/filter"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:background="@drawable/white_rectangle"
+                android:elevation="2dp"/>
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:id="@+id/distance_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/white_rectangle"
+                        android:elevation="1dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="@string/distance" />
+
+                        <Button
+                            android:id="@+id/distance_button"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:foreground="@drawable/arrow_down_icon"
+                            android:foregroundTint="#909090"
+                            android:background="@drawable/white_rectangle"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/distance_chooser_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground"
+                        android:elevation="-1dp"
+                        android:visibility="gone">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Choose a distance:"
+                            android:layout_margin="10dp"
+                            android:gravity="center_horizontal"/>
+                        <SeekBar
+                            android:id="@+id/distance_slider"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="30dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/distance_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="10 km"
+                            android:layout_margin="10dp"
+                            android:gravity="center_horizontal"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/rating_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/white_rectangle"
+                        android:elevation="1dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="@string/rating" />
+
+                        <Button
+                            android:id="@+id/rating_button"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:foreground="@drawable/arrow_down_icon"
+                            android:foregroundTint="#909090"
+                            android:background="@drawable/white_rectangle"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/rating_chooser_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground"
+                        android:elevation="-1dp"
+                        android:visibility="gone"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/choose_ratings"
+                            android:layout_margin="14dp"
+                            android:gravity="center_horizontal"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/average"
+                            android:layout_margin="4dp"
+                            android:gravity="center_horizontal"/>
+                        <RatingBar
+                            android:id="@+id/rating_chooser"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:numStars="5"
+                            android:progressTint="@color/colorAccent"
+                            android:stepSize="0.5" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/price"
+                            android:layout_margin="4dp"
+                            android:gravity="center_horizontal"/>
+                        <RatingBar
+                            android:id="@+id/price_rating_chooser"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:numStars="5"
+                            android:progressTint="@color/colorAccent"
+                            android:stepSize="0.5" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/access"
+                            android:layout_margin="4dp"
+                            android:gravity="center_horizontal"/>
+                        <RatingBar
+                            android:id="@+id/access_rating_chooser"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:numStars="5"
+                            android:progressTint="@color/colorAccent"
+                            android:stepSize="0.5" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/premises"
+                            android:layout_margin="4dp"
+                            android:gravity="center_horizontal"/>
+                        <RatingBar
+                            android:id="@+id/premises_rating_chooser"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:numStars="5"
+                            android:progressTint="@color/colorAccent"
+                            android:stepSize="0.5" />
+
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/categories_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/white_rectangle"
+                        android:elevation="1dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="@string/categories" />
+
+                        <Button
+                            android:id="@+id/categories_button"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:foreground="@drawable/arrow_down_icon"
+                            android:foregroundTint="#909090"
+                            android:background="@drawable/white_rectangle"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/categories_chooser_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground"
+                        android:elevation="-1dp"
+                        android:visibility="gone">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/choose_categories"
+                            android:layout_margin="10dp"
+                            android:gravity="center_horizontal"/>
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/categories_chooser"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp" />
+                        <ProgressBar
+                            android:id="@+id/load_more_progress_bar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"/>
+
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/sports_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/white_rectangle"
+                        android:elevation="1dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="18dp"
+                            android:text="@string/sports" />
+
+                        <Button
+                            android:id="@+id/sports_button"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:foreground="@drawable/arrow_down_icon"
+                            android:foregroundTint="#909090"
+                            android:background="@drawable/white_rectangle"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/sports_chooser_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorBackground"
+                        android:elevation="-1dp"
+                        android:visibility="gone">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/choose_sports"
+                            android:layout_margin="10dp"
+                            android:gravity="center_horizontal"/>
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/sports_chooser"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp" />
+                        <ProgressBar
+                            android:id="@+id/load_more_sports_progress_bar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"/>
+
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

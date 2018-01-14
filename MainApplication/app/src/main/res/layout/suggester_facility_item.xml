@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal" android:layout_width="match_parent"
+android:layout_height="50dp">
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/facility_image"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loading_gif3"
+        android:transitionName="image" />
+<TextView
+    android:id="@+id/facility_name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="@string/facility_name"
+    android:gravity="center_vertical"
+    android:layout_marginLeft="10dp"
+    android:textSize="16dp"/>
+</LinearLayout>

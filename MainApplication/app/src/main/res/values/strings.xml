@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">CasarderApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="facebook_app_id">913486285495078</string>
+    <string name="fb_login_protocol_scheme">fb913486285495078</string>
+    <string name="account_kit_client_token">393b9426d8e2bb2501ea53a24ffa3ea7</string>
+
+    <string name="supplemental_equipments">"Supplemental Equipments"</string>
+    <string name="continue_text">"Continue"</string>
+    <string name="categories">"Categories"</string>
+    <string name="sports">"Sports"</string>
+    <string name="equipments">"Equipments"</string>
+    <string name="book_now">"Book Now"</string>
+    <string name="rating">"Rating"</string>
+    <string name="more">"More"</string>
+    <string name="begin_hour">"Begin Hour"</string>
+    <string name="end_hour">"End Hour"</string>
+    <string name="invites">"Invites"</string>
+    <string name="book">"Book"</string>
+    <string name="invite_your_friends">"Invite Your Friends"</string>
+    <string name="login">"Login"</string>
+    <string name="logout">"Logout"</string>
+    <string name="facility_name">"Facility Name"</string>
+    <string name="locality">"Locality"</string>
+    <string name="search">"Search"</string>
+    <string name="popular_facilities">"Popular Facilities"</string>
+    <string name="recently_seen">"Recently Seen >"</string>
+    <string name="nearby_facilities">"Nearby Facilities"</string>
+    <string name="order_by">"Order By"</string>
+    <string name="filter">"Filter"</string>
+    <string name="select_day">"Select a Day:"</string>
+    <string name="distance">"Distance"</string>
+    <string name="price_rating">"Price Rating"</string>
+    <string name="price">"Price"</string>
+    <string name="premises">"Premises"</string>
+    <string name="access">"Access"</string>
+    <string name="aphabetical_order">"Alphabetical Order"</string>
+    <string name="price_ascending">"Price: Highest First"</string>
+    <string name="price_descending">"Price: Lowest First"</string>
+    <string name="title_home">"Home"</string>
+    <string name="title_history">"History"</string>
+    <string name="title_next_bookings">"Next Bookings"</string>
+    <string name="cancel">"Cancel" </string>
+    <string name="header_message">"Find the best place for your game"</string>
+    <string name="name">"Name"</string>
+    <string name="participants">"Participants"</string>
+    <string name="until"> until</string>
+    <string name="author">author</string>
+    <string name="participant">participant</string>
+    <string name="no_bookings">No Bookings For Now</string>
+    <string name="no_results">No Results</string>
+    <string name="no_time_slots">No Time Slots Available</string>
+    <string name="no_ratings">No Ratings</string>
+    <string name="please_sign">Please sign up or log in with your account</string>
+    <string name="rate">Confirm Rating</string>
+    <string name="relevance">Relevance</string>
+    <string name="locations">Locations</string>
+    <string name="facilities">Facilities</string>
+    <string name="choose_ratings">Choose the Rating Values:</string>
+    <string name="choose_distance">Choose a distance:</string>
+    <string name="choose_sports">Choose Sports:</string>
+    <string name="choose_categories">Choose Categories:</string>
+    <string name="overall_rating"></string>
+    <string name="average">Average</string>
+
+
+</resources>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas. .com/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="mainapplication.activity.FacilityActivity"
+    android:transitionName="layout">
+
+    <LinearLayout
+        android:id="@+id/facility_header"
+        android:transitionName="top_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app2:layout_constraintTop_toTopOf="parent"
+        app2:layout_constraintBottom_toTopOf="@+id/rating_bar_layout"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        android:orientation="vertical"
+        android:background="@drawable/white_rectangle"
+        android:backgroundTint="@color/colorPrimary"
+        android:elevation="4dp"
+        app2:layout_constraintHeight_min="120dp"
+        app2:layout_constraintHeight_max="250dp"
+        app2:layout_constraintWidth_min="360dp"
+        app2:layout_constraintWidth_max="500dp"
+
+        app2:layout_constraintVertical_bias="0.0">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/facility_hero_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/loading_gif3"
+                android:transitionName="image" />
+
+            <com.facebook.share.widget.ShareButton
+                android:id="@+id/fb_share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/white_card"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:elevation="2dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="9dp"
+                android:layout_marginTop="9dp" />
+            <TextView
+                android:id="@+id/promotion"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:gravity="center"
+                android:background="@drawable/white_rectangle"
+                android:backgroundTint="@color/colorAccent"
+                android:text="promoçao"
+                android:transitionName="promotion"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:elevation="2dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/facility_name"
+            android:transitionName="name"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Facility Name"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/facility_type"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Facility Type"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:transitionName="type" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/facility_info_bar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app2:layout_constraintTop_toBottomOf="@+id/facility_header"
+        android:layout_marginTop="8dp"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintWidth_min="360dp"
+        app2:layout_constraintWidth_max="500dp"
+        android:elevation="2dp"
+        android:background="@drawable/white_card">
+        <Button
+            android:id="@+id/categories_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/white_rectangle"
+            android:text="@string/categories"
+
+            android:textSize="11sp"/>
+        <Button
+            android:id="@+id/sports_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/white_rectangle"
+            android:text="@string/sports"
+
+            android:textSize="11sp"/>
+        <Button
+            android:id="@+id/equipments_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/white_rectangle"
+            android:text="@string/equipments"
+            android:textSize="11sp"/>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app2:layout_constraintTop_toBottomOf="@+id/book_now_button"
+        app2:layout_constraintBottom_toTopOf="@+id/rating_bar_layout"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintWidth_min="360dp"
+        app2:layout_constraintWidth_max="500dp"
+        tools:context="mainapplication.activity.MapsActivity"
+        tools:layout="@layout/activity_maps"
+        android:elevation="3dp"/>
+
+
+    <Button
+        android:id="@+id/book_now_button"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app2:layout_constraintTop_toBottomOf="@+id/facility_info_bar"
+        android:layout_marginTop="8dp"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintWidth_min="360dp"
+        app2:layout_constraintWidth_max="500dp"
+        android:elevation="2dp"
+        android:background="@drawable/white_card"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/book_now"/>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/rating_bar_layout"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:transitionName="rating_layout"
+        android:elevation="4dp"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintWidth_max="500dp"
+        app2:layout_constraintWidth_min="360dp"
+        android:background="@drawable/white_rectangle">
+
+        <TextView
+            android:id="@+id/rating_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|left|center"
+            android:layout_marginRight="3dp"
+            android:textSize="14sp"
+            android:layout_toStartOf="@+id/rating"
+            android:transitionName="rating_label"
+            android:text="@string/rating" />
+
+        <RatingBar
+            android:id="@+id/rating"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:transitionName="rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="@color/colorAccent"
+            android:stepSize="0.1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/ratings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_rectangle"
+            android:text="@string/more"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    tools:context="mainapplication.activity.FacilityRatingsActivity"
+    android:background="@drawable/white_card"
+    android:elevation="2dp"
+    android:layout_marginBottom="6dp">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app2:layout_constraintTop_toTopOf="parent"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        app2:layout_constraintWidth_min="360dp"
+        app2:layout_constraintWidth_max="500dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rating_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+            <TextView
+                android:id="@+id/rater_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:text="Username"
+                android:textSize="18sp"
+
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/date_of_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="DATE OF RATING"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:textColor="@color/light_grey_accent"
+                android:layout_below="@+id/rater_name"
+                 />
+
+            <RelativeLayout
+                android:id="@+id/collapsed_ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true">
+                <TextView
+                    android:id="@+id/average_rating_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/dark_grey_accent"
+                    android:text="4.0"
+                    android:layout_alignStart="@+id/average_rating_bar"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="4dp"
+                    android:layout_alignEnd="@+id/average_rating_bar" />
+
+
+                <RatingBar
+                    android:id="@+id/average_rating_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="11dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_below="@id/average_rating_value"
+                    android:progressTint="@color/colorAccent"
+                    android:layout_alignParentEnd="true" />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/expanded_ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:clickable="true">
+                <TextView
+                    android:id="@+id/price_rating_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:text="@string/price"
+                    android:layout_alignEnd="@+id/premises_rating_label"
+                    android:layout_below="@+id/premises_rating_label"
+                    android:layout_alignBottom="@+id/price_rating" />
+
+                <TextView
+                    android:id="@+id/access_rating_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/access"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/access_rating"
+                    android:layout_above="@+id/premises_rating" />
+
+                <RatingBar
+                    android:id="@+id/access_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:progressTint="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/premises_rating"
+                    android:layout_marginEnd="10dp" />
+
+                <RatingBar
+                    android:id="@+id/premises_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:progressTint="@color/colorAccent"
+                    android:layout_below="@+id/access_rating"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/premises_rating_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:text="@string/premises"
+                    android:layout_toStartOf="@+id/premises_rating"
+                    android:layout_above="@+id/price_rating"
+                    android:layout_below="@+id/access_rating_label" />
+
+                <RatingBar
+                    android:id="@+id/price_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:progressTint="@color/colorAccent"
+                    android:layout_below="@+id/premises_rating"
+                    android:layout_alignStart="@+id/premises_rating" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/rating_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rating_info"
+            android:layout_margin="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta risus nec ornare ultricies. Donec risus odio, semper sit amet sapien eget, venenatis commodo orci. Mauris porta magna nisi, at laoreet nulla porttitor sed. Nulla nec tortor ante. "
+            android:textColor="@android:color/black"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="16dp" />
+        </RelativeLayout>
+    </android.support.constraint.ConstraintLayout>
