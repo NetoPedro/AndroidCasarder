@@ -51,6 +51,7 @@ public class HistoryActivity extends Fragment {
     private BookingDTO[] mBookings;
     private GetBookingsTask task;
     private boolean author = true;
+    private static boolean pageAuthor = true;
     boolean loading = false;
     private BookingsCardAdapter adapter;
     private RecyclerView recyclerView;
@@ -72,9 +73,12 @@ public class HistoryActivity extends Fragment {
     }
 
 
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        System.out.println("create");
         rootView =  inflater.inflate(R.layout.activity_history, container, false);
         mContext = rootView.getContext();
         task = new GetBookingsTask(0);
@@ -82,10 +86,12 @@ public class HistoryActivity extends Fragment {
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                if(tab.getText().toString().equalsIgnoreCase("Author")){
+                if(tab.getText().toString().equalsIgnoreCase(getResources().getString(R.string.author))){
                     author = true;
+                    pageAuthor = true;
                 }else{
                     author = false;
+                    pageAuthor = false;
                 }
                 task = new GetBookingsTask(0);
                 task.execute();
@@ -98,12 +104,6 @@ public class HistoryActivity extends Fragment {
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
-                if(tab.getText().toString().equalsIgnoreCase("Author")){
-                    author = true;
-                }else{
-                    author = false;
-                }
-                task = new GetBookingsTask(0);
 
             }
         });
@@ -136,17 +136,42 @@ public class HistoryActivity extends Fragment {
     }
 
 
+
     @Override
     public void onPause() {
+        System.out.println("pause");
         super.onPause();
         task.cancel(true);
     }
 
     @Override
     public void onStop() {
+        System.out.println("stop");
         super.onStop();
         task.cancel(true);
     }
+
+    @Override
+    public void onStart() {
+        System.out.println("start");
+        super.onStart();
+        if(!task.isCancelled()){
+            task.cancel(true);
+            task = new GetBookingsTask(0);
+            task.execute();
+        }else{
+            task = new GetBookingsTask(0);
+            task.execute();
+        }
+        TabLayout tabLayout = (TabLayout) rootView.findViewById(R.id.booking_tab_layout);
+        System.out.println(tabLayout.getSelectedTabPosition());
+        if(pageAuthor){
+            tabLayout.getTabAt(0).select();
+        }else{
+            tabLayout.getTabAt(1).select();
+        }
+    }
+
 
     public class GetBookingsTask extends AsyncTask<Void, Void, BookingDTO[]> {
 
@@ -185,8 +210,7 @@ public class HistoryActivity extends Fragment {
             final UriComponents uri = UriComponentsBuilder.newInstance().scheme(webProperties.getScheme())
                     .host(webProperties.getHost())
                     .path("/pt" + webProperties.getAppBaseUri()
-                            + webProperties.getTimeSlotsBaseUri() + "/booked").queryParam("from", format.format(fromDate.getTime()))
-                    .queryParam("to", format.format(toDate.getTime())).queryParam("isAuthor", author).queryParam("limit", 15).queryParam("offset", mOffset).build();
+                            + webProperties.getTimeSlotsBaseUri() + "/booked").queryParam("isAuthor", author).queryParam("limit", 15).queryParam("offset", mOffset).build();
 
 
             System.out.println(uri.toString());

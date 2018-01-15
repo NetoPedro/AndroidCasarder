@@ -36,11 +36,13 @@ public class MainActivity extends FragmentActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     page = 1;
+
                     manager.beginTransaction().replace(R.id.fragments_container, home)
                             .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).commit();
                     return true;
                 case R.id.navigation_my_bookings:
                     page = 2;
+
                     if(getSharedPreferences("userPreferences", MODE_PRIVATE).contains("token")) {
                         manager.beginTransaction().replace(R.id.fragments_container, myBookings)
                                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).commit();
@@ -54,6 +56,7 @@ public class MainActivity extends FragmentActivity {
                     return true;
                 case R.id.navigation_history:
                     page = 3;
+
                     if(getSharedPreferences("userPreferences", MODE_PRIVATE).contains("token")) {
                     manager.beginTransaction().replace(R.id.fragments_container, history)
                             .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).commit();
@@ -91,20 +94,26 @@ public class MainActivity extends FragmentActivity {
     protected void onStart() {
         super.onStart();
         setLogin();
+        home.setmParent(this);
+        myBookings.setParent(this);
+        history.setParent(this);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         FragmentManager manager = getFragmentManager();
         switch(page){
             case 1:
                 navigation.setSelectedItemId(R.id.navigation_home);
+
                 manager.beginTransaction().replace(R.id.fragments_container, home)
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).commit();
                 break;
             case 2:
                 navigation.setSelectedItemId(R.id.navigation_my_bookings);
+
                 manager.beginTransaction().replace(R.id.fragments_container, myBookings)
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).commit();
                 break;
             case 3:
+
                 navigation.setSelectedItemId(R.id.navigation_history);
                 manager.beginTransaction().replace(R.id.fragments_container, history)
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).commit();

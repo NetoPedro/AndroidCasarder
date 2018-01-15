@@ -111,7 +111,12 @@ public class FacilitiesCardAdapter extends RecyclerView.Adapter<FacilitiesCardAd
                     Pair<View, String> p4 = Pair.create((View) rating, "rating_stars");
                     Pair<View, String> p5 = Pair.create((View) layout, "layout");
                     Pair<View, String> p6 = Pair.create((View) itemView.findViewById(R.id.promotion), "promotion");
-                    ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(mContext, p1, p2, p3, p4, p6);
+                    ActivityOptions options;
+                    if(promotion.getText().equals("promoçao")) {
+                        options = ActivityOptions.makeSceneTransitionAnimation(mContext, p1, p2, p3, p4);
+                    }else {
+                        options = ActivityOptions.makeSceneTransitionAnimation(mContext, p1, p2, p3, p4, p6);
+                    }
                     mContext.startActivity(extras,options.toBundle());
                 }
             });

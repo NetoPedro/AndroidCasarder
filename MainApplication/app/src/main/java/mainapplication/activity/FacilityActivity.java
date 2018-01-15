@@ -112,6 +112,11 @@ public class FacilityActivity extends AppCompatActivity implements OnMapReadyCal
     }
 
     @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         LatLng location = new LatLng(facility.getLatitude(), facility.getLongitude());

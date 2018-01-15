@@ -66,28 +66,33 @@
       <file leaf-file-name="MyBookingsActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/MyBookingsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="153" column="39" selection-start-line="153" selection-start-column="39" selection-end-line="153" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="450">
+              <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+              <folding>
+                <element signature="e#2947#2988#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RatingsAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/RatingsAdapter.java">
+      <file leaf-file-name="activity_facility.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="552">
+              <caret line="201" column="36" selection-start-line="201" selection-start-column="36" selection-end-line="201" selection-end-column="36" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SearchResultsActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/SearchResultsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="280" column="43" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
+            <state relative-caret-position="57">
+              <caret line="373" column="29" selection-start-line="373" selection-start-column="29" selection-end-line="373" selection-end-column="29" />
               <folding>
                 <element signature="method#getLocation#0;class#SearchResultsActivity#0" expanded="false" />
                 <element signature="method#setUpSortTab#0;class#SearchResultsActivity#0" expanded="false" />
@@ -96,83 +101,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file leaf-file-name="FacilitiesCardAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/FacilitiesCardAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuggesterActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/SuggesterActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+            <state relative-caret-position="406">
+              <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="activity_facility_ratings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility_ratings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="406">
+              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_suggester.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_suggester.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacilityActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilityActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="332">
+              <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
               <folding>
-                <element signature="e#1939#2944#0" expanded="false" />
+                <element signature="e#5457#5458#0" expanded="true" />
+                <element signature="e#5488#5489#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HistoryActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/HistoryActivity.java">
+      <file leaf-file-name="FacilitiesCollapsedCardAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/FacilitiesCollapsedCardAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="155" column="41" selection-start-line="155" selection-start-column="41" selection-end-line="155" selection-end-column="41" />
+            <state relative-caret-position="361">
+              <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_search_results.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_results.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="93" column="64" selection-start-line="93" selection-start-column="64" selection-end-line="93" selection-end-column="64" />
+            <state relative-caret-position="325">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_history.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_history.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="HistoryActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/HistoryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="167" column="21" selection-start-line="167" selection-start-column="21" selection-end-line="167" selection-end-column="21" />
+              <folding>
+                <element signature="e#2967#3008#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -306,6 +313,11 @@
                 <option name="description" value="Prepare com.android.support:support-fragment:26.0.0-alpha1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportSupportFragment2600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:cardview-v7:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportCardviewV72600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -851,11 +863,6 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:cardview-v7:21.0.3" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportCardviewV72103Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the dependent components of components in root project 'MainApplication'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
@@ -1090,6 +1097,11 @@
                 <option name="description" value="Prepare com.android.support:support-fragment:26.0.0-alpha1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareComAndroidSupportSupportFragment2600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:cardview-v7:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportCardviewV72600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1630,11 +1642,6 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:cardview-v7:21.0.3" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportCardviewV72103Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the dependent components of components in project ':app'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="dependentComponents" />
@@ -1800,7 +1807,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="C:\Users\Luis Gouveia\Documents\Faculdade\3ºANO\ProjetoCDIO\casarder_android\MainApplication" value="4536743734370" />
-        <entry key="C:\Users\Luis Gouveia\Documents\Faculdade\ProjetoCDIO\casarder_android\MainApplication" value="4542934352848" />
+        <entry key="C:\Users\Luis Gouveia\Documents\Faculdade\ProjetoCDIO\casarder_android\MainApplication" value="4543110265224" />
         <entry key="C:\Users\Luis Gouveia\Documents\Projetos\Casarder\MainApplication" value="4536481030225" />
       </map>
     </option>
@@ -2148,7 +2155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/suggester_location_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/dto/SuggestionsDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/dto/SuggesterDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/dto/InfixSuggesterDTO.java" />
@@ -2156,20 +2162,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/dto/SuggestDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/utils/DownloadImageTask.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/SuggesterFacilitiesAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/FacilitiesCollapsedCardAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/facility_condensed_card.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_facility.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/booking_card.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_facility_ratings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilityRatingsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/facility_card.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_facilities_map.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilitiesMapActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/SuggesterLocationsAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/FacilitiesCardAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/BookingsCardAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/SportsFilterAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/utils/SearchFilters.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FilterResultsPopupActivity.java" />
@@ -2181,7 +2181,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/SportsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/EquipmentsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/CategoriesAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilityActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilityCategoriesActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilitySportsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilityEquipmentsActivity.java" />
@@ -2193,12 +2192,20 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_history.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/SearchResultsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_suggester.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/RatingsAdapter.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/HistoryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/SuggesterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/BookingsCardAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search_results.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/FacilitiesCollapsedCardAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/FacilitiesCardAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_facility.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilityActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_facility_ratings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/MyBookingsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/RatingsAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/SuggesterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mainapplication/activity/HistoryActivity.java" />
       </list>
     </option>
   </component>
@@ -2245,8 +2252,8 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Projetos/CDIO2016-android" />
-    <property name="device.picker.selection" value="Pixel_XL_API_25" />
-    <property name="SearchEverywhereHistoryKey" value="sugg&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SuggesterActivity.java&#10;bui&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/build.gradle&#10;androi&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/AndroidManifest.xml&#10;se&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SearchResultsActivity.java&#10;my&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_my_bookings.xml&#10;his&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_history.xml&#10;m&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/MyBookingsActivity.java&#10;sea&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SearchResultsActivity.java&#10;book&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/MyBookingsActivity.java&#10;hi&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_history.xml&#10;strings&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/values-b+pt/strings.xml&#10;strin&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/values/strings.xml&#10;Suppl&#9;PSI&#9;JAVA://mainapplication.dto.SupplementalEquipmentDTO&#10;f&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FacilityCategoriesActivity.java&#10;sports&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FacilitySportsActivity.java&#10;lo&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/LoginActivity.java&#10;ma&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/MainActivity.java&#10;logi&#9;PSI&#9;JAVA://mainapplication.activity.LoginActivity&#10;fac&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FacilityActivity.java&#10;facilityC&#9;PSI&#9;JAVA://mainapplication.activity.FacilityCategoriesActivity&#10;facility&#9;PSI&#9;JAVA://mainapplication.activity.FacilityEquipmentsActivity&#10;equi&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility_equipments.xml&#10;catego&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility_categories.xml&#10;search&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SearchResultsActivity.java&#10;sear&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/utils/SearchFilters.java&#10;filte&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_filter_results_popup.xml&#10;string&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/values/strings.xml&#10;filter&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_filter_results_popup.xml&#10;mSports&#9;PSI&#9;JAVA://mainapplication.adapter.SportsFilterAdapter#mSports&#10;sugge&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_suggester.xml&#10;facili&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility.xml&#10;categ&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility_categories.xml&#10;fa&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/facility_card.xml&#10;rating&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility_ratings.xml&#10;home&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/HomeActivity.java&#10;su&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_suggester.xml&#10;history&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_history.xml&#10;fini&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FinishBookingActivity.java&#10;ratings&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FacilityRatingsActivity.java&#10;histo&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_history.xml&#10;activity_facility&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility.xml&#10;build&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/build.gradle&#10;androidM&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/AndroidManifest.xml&#10;facility_&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/facility_condensed_card.xml&#10;faci&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/facility_card.xml&#10;hom&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/HomeActivity.java&#10;facility_c&#9;PSI&#9;JAVA://mainapplication.R.layout#facility_condensed_card&#10;finis&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FinishBookingActivity.java&#10;searchR&#9;PSI&#9;JAVA://mainapplication.activity.SearchResultsActivity&#10;ho&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/HomeActivity.java" />
+    <property name="device.picker.selection" value="00eed7980eacb14d" />
+    <property name="SearchEverywhereHistoryKey" value="his&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/HistoryActivity.java&#10;my&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/MyBookingsActivity.java&#10;main&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/MainActivity.java&#10;rating&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility_ratings.xml&#10;faci&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility.xml&#10;facility&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility.xml&#10;hi&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/HistoryActivity.java&#10;y&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/MyBookingsActivity.java&#10;m&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/MainActivity.java&#10;histor&#9;PSI&#9;JAVA://mainapplication.activity.HistoryActivity&#10;facili&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FacilityActivity.java&#10;sear&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SearchResultsActivity.java&#10;s&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_search_results.xml&#10;su&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SearchResultsActivity.java&#10;home&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/HomeActivity.java&#10;sug&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SuggesterActivity.java&#10;gr&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/build.gradle&#10;sugg&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SuggesterActivity.java&#10;bui&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/build.gradle&#10;androi&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/AndroidManifest.xml&#10;se&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SearchResultsActivity.java&#10;sea&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SearchResultsActivity.java&#10;book&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/MyBookingsActivity.java&#10;strings&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/values-b+pt/strings.xml&#10;strin&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/values/strings.xml&#10;Suppl&#9;PSI&#9;JAVA://mainapplication.dto.SupplementalEquipmentDTO&#10;f&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FacilityCategoriesActivity.java&#10;sports&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FacilitySportsActivity.java&#10;lo&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/LoginActivity.java&#10;ma&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/MainActivity.java&#10;logi&#9;PSI&#9;JAVA://mainapplication.activity.LoginActivity&#10;fac&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FacilityActivity.java&#10;facilityC&#9;PSI&#9;JAVA://mainapplication.activity.FacilityCategoriesActivity&#10;equi&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility_equipments.xml&#10;catego&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility_categories.xml&#10;search&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/SearchResultsActivity.java&#10;filte&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_filter_results_popup.xml&#10;string&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/values/strings.xml&#10;filter&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_filter_results_popup.xml&#10;mSports&#9;PSI&#9;JAVA://mainapplication.adapter.SportsFilterAdapter#mSports&#10;sugge&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_suggester.xml&#10;categ&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility_categories.xml&#10;fa&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/facility_card.xml&#10;history&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_history.xml&#10;fini&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FinishBookingActivity.java&#10;ratings&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/java/mainapplication/activity/FacilityRatingsActivity.java&#10;histo&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_history.xml&#10;activity_facility&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/res/layout/activity_facility.xml&#10;build&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/build.gradle&#10;androidM&#9;FILE&#9;file://C:/Users/Luis Gouveia/Documents/Faculdade/ProjetoCDIO/casarder_android/MainApplication/app/src/main/AndroidManifest.xml" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -2619,14 +2626,14 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41561714" sideWeight="0.26576576" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41439205" sideWeight="0.26576576" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41813603" sideWeight="0.7342342" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9044665" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27945945" sideWeight="0.49554566" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32630274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32619646" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2670,7 +2677,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/BookingsCardAdapter.java</url>
-          <line>118</line>
+          <line>119</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -2733,23 +2740,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/facility_condensed_card.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
           <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/booking_card.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/booking_card.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FinishBookingActivity.java">
@@ -2760,17 +2767,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/FacilitiesCollapsedCardAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="82" column="68" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
@@ -2779,26 +2776,8 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="82" column="102" selection-start-line="82" selection-start-column="102" selection-end-line="82" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility_ratings.xml">
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="212" column="36" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="36" />
-          <folding>
-            <element signature="e#8918#8939#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilityRatingsActivity.java">
@@ -2810,33 +2789,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/facility_card.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility.xml">
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facilities_map.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilitiesMapActivity.java">
@@ -2850,22 +2819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/FacilitiesCardAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/BookingsCardAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -2892,55 +2845,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_filter_results_popup.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="328" column="24" selection-start-line="328" selection-start-column="24" selection-end-line="332" selection-end-column="55" />
-          <folding>
-            <element signature="e#5705#7090#0" expanded="false" />
-            <element signature="e#7762#7786#0" expanded="true" />
-            <element signature="e#8114#8131#0" expanded="true" />
-            <element signature="e#8974#8989#0" expanded="true" />
-            <element signature="e#9838#9854#0" expanded="true" />
-            <element signature="e#10704#10722#0" expanded="true" />
-            <element signature="e#12217#12237#0" expanded="true" />
-            <element signature="e#13478#13505#0" expanded="true" />
-            <element signature="e#14298#15683#0" expanded="false" />
-            <element signature="e#16330#16353#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility_sports.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility_sports.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility_equipments.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility_equipments.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility_categories.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility_categories.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/SportsAdapter.java">
@@ -2968,14 +2909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilityActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="100" column="90" selection-start-line="100" selection-start-column="90" selection-end-line="100" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3028,47 +2961,110 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="50" column="102" selection-start-line="50" selection-start-column="102" selection-end-line="50" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_results.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_my_bookings.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1325">
           <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="31" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_history.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_history.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
           <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_suggester.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="e#1939#2944#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/RatingsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/SuggesterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="51" column="62" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/BookingsCardAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="66" column="96" selection-start-line="66" selection-start-column="96" selection-end-line="66" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_results.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/SearchResultsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="280" column="43" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
+        <state relative-caret-position="57">
+          <caret line="373" column="29" selection-start-line="373" selection-start-column="29" selection-end-line="373" selection-end-column="29" />
           <folding>
             <element signature="method#getLocation#0;class#SearchResultsActivity#0" expanded="false" />
             <element signature="method#setUpSortTab#0;class#SearchResultsActivity#0" expanded="false" />
@@ -3076,75 +3072,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_suggester.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/FacilitiesCollapsedCardAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="361">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
           <folding>
-            <element signature="e#1939#2944#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/FacilitiesCardAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="406">
+          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/HistoryActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="155" column="41" selection-start-line="155" selection-start-column="41" selection-end-line="155" selection-end-column="41" />
+        <state relative-caret-position="552">
+          <caret line="201" column="36" selection-start-line="201" selection-start-column="36" selection-end-line="201" selection-end-column="36" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/FacilityActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
+          <folding>
+            <element signature="e#5457#5458#0" expanded="true" />
+            <element signature="e#5488#5489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility_ratings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="93" column="64" selection-start-line="93" selection-start-column="64" selection-end-line="93" selection-end-column="64" />
+        <state relative-caret-position="325">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/MyBookingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="153" column="39" selection-start-line="153" selection-start-column="39" selection-end-line="153" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+          <folding>
+            <element signature="e#2947#2988#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/adapter/RatingsAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/HistoryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mainapplication/activity/SuggesterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="167" column="21" selection-start-line="167" selection-start-column="21" selection-end-line="167" selection-end-column="21" />
+          <folding>
+            <element signature="e#2967#3008#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

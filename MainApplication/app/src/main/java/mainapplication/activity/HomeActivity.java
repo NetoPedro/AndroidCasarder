@@ -107,6 +107,13 @@ public class HomeActivity extends Fragment {
     }
 
     @Override
+    public void onStart() {
+        super.onStart();
+        task1 = new getPopularFacilitiesTask();
+        task1.execute();
+    }
+
+    @Override
     public void onStop() {
         super.onStop();
         task1.cancel(true);

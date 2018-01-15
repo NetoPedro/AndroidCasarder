@@ -17,6 +17,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 import mainapplication.R;
 import mainapplication.activity.BookingActivity;
@@ -63,7 +64,7 @@ public class BookingsCardAdapter extends RecyclerView.Adapter<BookingsCardAdapte
         holder.downloadTask = new DownloadImageTask(booking.getFacilityId(), holder.image, booking.getImageURL());
         holder.downloadTask.execute();
         Calendar date = Calendar.getInstance();
-        SimpleDateFormat format = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa");
+        SimpleDateFormat format =  new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa", Locale.ENGLISH);
         Date endDate = null;
         try {
             endDate = format.parse(booking.getEndTime());

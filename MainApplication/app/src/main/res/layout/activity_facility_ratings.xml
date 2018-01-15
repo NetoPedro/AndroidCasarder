@@ -29,7 +29,8 @@
             android:layout_gravity="center_vertical|left|center"
             android:layout_toStartOf="@+id/rating"
             android:transitionName="rating_label"
-            android:text="@string/rating" />
+            android:text="@string/rating"
+            android:visibility="gone"/>
 
         <RatingBar
             android:id="@+id/rating"
@@ -54,7 +55,7 @@
             android:layout_alignParentEnd="true"
             android:background="@drawable/white_rectangle"
             android:gravity="center_vertical"
-            android:padding="20dp"
+            android:layout_marginRight="16dp"
             android:text="4.0"
             android:textStyle="bold"
             android:textColor="@color/dark_grey_accent"

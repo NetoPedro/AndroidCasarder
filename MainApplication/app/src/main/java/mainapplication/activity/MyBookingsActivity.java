@@ -50,6 +50,7 @@ public class MyBookingsActivity extends Fragment {
     private GetBookingsTask task;
     private boolean author = true;
     boolean loading = false;
+    private static boolean pageAuthor = true;
     private BookingsCardAdapter adapter;
     private RecyclerView recyclerView;
     private boolean loadMore = true;
@@ -80,10 +81,12 @@ public class MyBookingsActivity extends Fragment {
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                if(tab.getText().toString().equalsIgnoreCase("Author")){
+                if(tab.getText().toString().equalsIgnoreCase(getResources().getString(R.string.author))){
                     author = true;
+                    pageAuthor = true;
                 }else{
                     author = false;
+                    pageAuthor = false;
                 }
                 task = new GetBookingsTask(0);
                 task.execute();
@@ -96,12 +99,6 @@ public class MyBookingsActivity extends Fragment {
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
-                if(tab.getText().toString().equalsIgnoreCase("Author")){
-                    author = true;
-                }else{
-                    author = false;
-                }
-                task = new GetBookingsTask(0);
 
             }
         });
@@ -110,17 +107,39 @@ public class MyBookingsActivity extends Fragment {
 
         return rootView;
     }
+    @Override
+    public void onStart() {
+        super.onStart();
+        if(!task.isCancelled()){
+            task.cancel(true);
+            task = new GetBookingsTask(0);
+            task.execute();
+        }else{
+            task = new GetBookingsTask(0);
+            task.execute();
+        }
+
+        TabLayout tabLayout = (TabLayout) rootView.findViewById(R.id.booking_tab_layout);
+        if(pageAuthor){
+            tabLayout.getTabAt(0).select();
+        }else{
+            tabLayout.getTabAt(1).select();
+        }
+
+    }
 
     @Override
     public void onPause() {
-        super.onPause();
         task.cancel(true);
+        super.onPause();
+
     }
 
     @Override
     public void onStop() {
-        super.onStop();
         task.cancel(true);
+        super.onStop();
+
     }
 
 

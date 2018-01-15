@@ -58,7 +58,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="@drawable/white_rectangle"
-        android:text="@string/name"
+        android:text="@string/relevance"
         android:textColor="@color/dark_grey_accent"/>
         <android.support.design.widget.TabItem
             android:id="@+id/order_by_rating"

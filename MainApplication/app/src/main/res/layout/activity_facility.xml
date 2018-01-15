@@ -198,7 +198,8 @@
             android:textSize="14sp"
             android:layout_toStartOf="@+id/rating"
             android:transitionName="rating_label"
-            android:text="@string/rating" />
+            android:text="@string/rating"
+            android:visibility="gone"/>
 
         <RatingBar
             android:id="@+id/rating"

@@ -79,7 +79,13 @@ public class FacilitiesCollapsedCardAdapter extends RecyclerView.Adapter<Facilit
                     Pair<View, String> p1 = Pair.create((View) image, "image");
                     Pair<View, String> p2 = Pair.create((View) itemName, "name");
                     Pair<View, String> p3 = Pair.create((View) promotion, "promotion");
-                    ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(mContext, p1, p2, p3);
+                    ActivityOptions options;
+                    if(promotion.getText().equals("promoçao")) {
+                         options = ActivityOptions.makeSceneTransitionAnimation(mContext, p1, p2);
+                    }else {
+                        options = ActivityOptions.makeSceneTransitionAnimation(mContext, p1, p2, p3);
+                    }
+
                     mContext.startActivity(extras,options.toBundle());
                 }
             });

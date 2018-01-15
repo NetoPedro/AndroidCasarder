@@ -37,16 +37,15 @@ public class SuggesterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_suggester);
         SearchView search = (SearchView) findViewById(R.id.search_field);
+        search.setIconified(false);
         search.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
                 text = query;
-                locationsTask.cancel(true);
-                facilitiesTask.cancel(true);
-                locationsTask = new SuggestLocationsTask();
-                locationsTask.execute();
-                facilitiesTask = new SuggestFacilitiesTask();
-                facilitiesTask.execute();
+                Intent extras = new Intent(SuggesterActivity.this, SearchResultsActivity.class);
+                extras.putExtra("city", text);
+                extras.putExtra("name", text);
+                startActivity(extras);
                 return true;
             }
             @Override
@@ -65,10 +64,7 @@ public class SuggesterActivity extends AppCompatActivity {
         findViewById(R.id.search_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent extras = new Intent(SuggesterActivity.this, SearchResultsActivity.class);
-                extras.putExtra("city", text);
-                extras.putExtra("name", text);
-                startActivity(extras);
+
             }
         });
     }
